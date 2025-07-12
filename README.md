@@ -39,13 +39,6 @@ Uses an epsilon-greedy strategy with exponential decay to balance exploration an
 
 - Initial epsilon: 1.0 (decays to 0.01)
 
-**Performance Evaluation:**
-
-- Average rewards are logged every 500 episodes.
-
-- Policy is evaluated (with greedy action selection) and visualized every 10,000 episodes.
-
-- Evaluation videos are recorded and merged into a final output.
 
   ![average_rewards](https://github.com/user-attachments/assets/4a8ab3d7-b769-4fe9-8dde-092e5a57ec20)
 
